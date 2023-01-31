@@ -1,0 +1,455 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 32597 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Unity Projects/BH Test
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58324
+Successfully changed project path to: C:/Unity Projects/BH Test
+C:/Unity Projects/BH Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18768] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1656196565 [EditorId] 1656196565 [Version] 1048832 [Id] WindowsEditor(7,AlexdV-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18768] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1656196565 [EditorId] 1656196565 [Version] 1048832 [Id] WindowsEditor(7,AlexdV-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 134.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/BH Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8081 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009808 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015205 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\BH Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\BH Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mirror | mirror-networking.com | discord.gg/N9QVxbM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Mirror.Welcome:OnInitializeOnLoad () (at Assets/Mirror/Editor/Welcome.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1628ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1290ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3952 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (113.8 KB). Loaded Objects now: 4405.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 4.016500 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.213400 ms MarkObjects: 3.266700 ms  DeleteObjects: 0.136500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1607100.796841 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Textures/Tile#1.png
+  artifactKey: Guid(8cc6f758dd676460aac0a91f8280a09d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Textures/Tile#1.png using Guid(8cc6f758dd676460aac0a91f8280a09d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da0269b79d4110859f31b3f9a308eeff') in 0.232188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/QuantumConsole.cs
+  artifactKey: Guid(3d0e534416bbcea448f24633d520da24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/QuantumConsole.cs using Guid(3d0e534416bbcea448f24633d520da24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5b08098ca993c0ec45373b68464dd68') in 0.011471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Logging/LogStorage.cs
+  artifactKey: Guid(d0b5e8fa829c491eb694d1dfc7a1842a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Logging/LogStorage.cs using Guid(d0b5e8fa829c491eb694d1dfc7a1842a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71deb294d2a0e623f2441912d9a9c1f2') in 0.006198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef
+  artifactKey: Guid(725ee7191c021de4dbf9269590ded755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Transports/Telepathy/Telepathy/Telepathy.asmdef using Guid(725ee7191c021de4dbf9269590ded755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f324c6c476c4a4d319e32e87df209fa2') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Animations/Robot.controller
+  artifactKey: Guid(fcb592e7f51614bc6be3d2034b632324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Animations/Robot.controller using Guid(fcb592e7f51614bc6be3d2034b632324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2912ed250d4d8d93fb24795052cd70c') in 0.009806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Actions/RemoveLog.cs
+  artifactKey: Guid(a4e97d9251aaa994aa83824d9bccfd59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Actions/RemoveLog.cs using Guid(a4e97d9251aaa994aa83824d9bccfd59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df91fa4b2eaa2e6ad9e9454872b4d70') in 0.006672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Normal.png
+  artifactKey: Guid(2617bfecca4d44805a3a51a7aa215d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Normal.png using Guid(2617bfecca4d44805a3a51a7aa215d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7caa3d830463f304b8bee5d2b966c1a1') in 0.029793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat
+  artifactKey: Guid(7e6bf26596c6f564097734c7cc319e15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat using Guid(7e6bf26596c6f564097734c7cc319e15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b124e39308942e034a2f089f4a8a5c3b') in 0.026899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Transports/KCP/kcp2k/empty/KcpServerNonAlloc.cs
+  artifactKey: Guid(54b8398dcd544c8a93bcad846214cc40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Transports/KCP/kcp2k/empty/KcpServerNonAlloc.cs using Guid(54b8398dcd544c8a93bcad846214cc40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dbbc3cb6a128ca71fb19fa0c23b2b6c') in 0.006201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Prefabs/Default Localization.asset
+  artifactKey: Guid(932f9a110a2ce714f8cabab830024f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Prefabs/Default Localization.asset using Guid(932f9a110a2ce714f8cabab830024f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72f46e9efeb4f973b82ac88a95fdf6f0') in 0.024299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat
+  artifactKey: Guid(84335f003ad8f42408d13787e76d4f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat using Guid(84335f003ad8f42408d13787e76d4f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edcdf287b4cd01057fc97fc92299683a') in 0.008349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Player 4.mat
+  artifactKey: Guid(736ae52493e428b47a81db86ee8191cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Player 4.mat using Guid(736ae52493e428b47a81db86ee8191cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b90a2d6d524ccb717a334193f0e26855') in 0.008020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mirror/Examples/Basic/README.md
+  artifactKey: Guid(67177defd4d334a549e535f10506cc66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mirror/Examples/Basic/README.md using Guid(67177defd4d334a549e535f10506cc66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31b178f9b55c8c6acc9ab43f327877ad') in 0.008243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.132559 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Pooling/ConcurrentPool.cs
+  artifactKey: Guid(226777291e3dca846a892782ceadaec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Pooling/ConcurrentPool.cs using Guid(226777291e3dca846a892782ceadaec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e8f02b107bb493c204799956ce81fc6') in 0.010913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Serialization/Serializers/IEnumerableSerializer.cs
+  artifactKey: Guid(85d1c77e99db74c4786c67db88eed3ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Serialization/Serializers/IEnumerableSerializer.cs using Guid(85d1c77e99db74c4786c67db88eed3ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '053fa9143d63106de3ca204dea0f311d') in 0.007000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Editor/QGUI/IGUIItem.cs
+  artifactKey: Guid(506cdc118faa64bd7b040644b69c623b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Editor/QGUI/IGUIItem.cs using Guid(506cdc118faa64bd7b040644b69c623b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d0fc98c2dd219d72fade3fabcfc9b71') in 0.006578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/UI/DraggableUI.cs
+  artifactKey: Guid(dddf2c665e079af45893ab7b0269d255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/UI/DraggableUI.cs using Guid(dddf2c665e079af45893ab7b0269d255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c7759de6692bd6ad06a3209c32e4eef') in 0.006319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/QFSW.QC.Parsers.asmdef
+  artifactKey: Guid(a5d04fa5e431fa844be99e9199658b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/QFSW.QC.Parsers.asmdef using Guid(a5d04fa5e431fa844be99e9199658b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'daaa26358800e16ea6ad95d649a684c3') in 0.007967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/UI/ZoomUIController.cs
+  artifactKey: Guid(302ba813ec8ed7b4da5659d8529ab761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/UI/ZoomUIController.cs using Guid(302ba813ec8ed7b4da5659d8529ab761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5be4e1557a8825258464fb406cd5f78a') in 0.006092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/RawSuggestion.cs
+  artifactKey: Guid(77020387dd1961a4781323957a90dac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/RawSuggestion.cs using Guid(77020387dd1961a4781323957a90dac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37108fbbd2e051913aa188c80aca9ab8') in 0.006479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/SuggestorUtilities.cs
+  artifactKey: Guid(a881c697c3a6c3e46a5e20f241472b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/SuggestorUtilities.cs using Guid(a881c697c3a6c3e46a5e20f241472b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44d29f240a7378361f08b0850494d09d') in 0.007477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/Vector3IntParser.cs
+  artifactKey: Guid(7af974e71f13d6c4f9c3a5291581e815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/Vector3IntParser.cs using Guid(7af974e71f13d6c4f9c3a5291581e815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd06622c6e6902e32c9df933104671982') in 0.006302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Scan Rules/ScanRuleResult.cs
+  artifactKey: Guid(1fafe1b921180174da3b1ced5f64056b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Scan Rules/ScanRuleResult.cs using Guid(1fafe1b921180174da3b1ced5f64056b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34baabe94afe11fbb741c5d4f1b2ab1d') in 0.006136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Grammar/QFSW.QC.Grammar.asmdef
+  artifactKey: Guid(ad10a660d2aec9d449de236f5524cb5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Grammar/QFSW.QC.Grammar.asmdef using Guid(ad10a660d2aec9d449de236f5524cb5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62ebe8a1500d8a05e459f06b8403a710') in 0.006893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/EnumerableParser.cs
+  artifactKey: Guid(c885a65409b41894ab2688fef15008b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/EnumerableParser.cs using Guid(c885a65409b41894ab2688fef15008b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b364340ae26a8ed00970993e45a8ec1') in 0.006918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Editor/Tools/PrefabUtil.cs
+  artifactKey: Guid(8efd6ec275d0caa46920e3c03f6e3925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Editor/Tools/PrefabUtil.cs using Guid(8efd6ec275d0caa46920e3c03f6e3925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17b938f9d2c9ba353d96ee5ff5b54690') in 0.008834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Utilities/TextProcessing.cs
+  artifactKey: Guid(8fc02e3f995d8444db9bad572a47be03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Utilities/TextProcessing.cs using Guid(8fc02e3f995d8444db9bad572a47be03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f40ac47417da897849c295380d2ad0bb') in 0.007493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Utilities/CollectionExtensions.cs
+  artifactKey: Guid(99be75fe8deafca40aeb940896f68a4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Utilities/CollectionExtensions.cs using Guid(99be75fe8deafca40aeb940896f68a4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a754152d5390b80256100dbcacf4a3ed') in 0.007213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Serialization/BasicQcSerializer.cs
+  artifactKey: Guid(8ca902898efebc44eb68a9de6f50a37b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Serialization/BasicQcSerializer.cs using Guid(8ca902898efebc44eb68a9de6f50a37b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e74eb85858cc758edcbc71b4b7c73acd') in 0.006472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/BoolParser.cs
+  artifactKey: Guid(f610c84a8ec2129489d0f4d00a585b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Parsing/Parsers/BoolParser.cs using Guid(f610c84a8ec2129489d0f4d00a585b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e295e89287b20582dc56b56a99030163') in 0.006994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192735 seconds.
+  path: Assets/Mirror/Examples/Common/FPS.cs
+  artifactKey: Guid(6635375fbc6be456ea640b75add6378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Common/FPS.cs using Guid(6635375fbc6be456ea640b75add6378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f74ea2af0838df9f35f772eb11ccf7') in 0.002317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene
+  artifactKey: Guid(0b8922a5489a74b5ebfd54fa257dbfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene using Guid(0b8922a5489a74b5ebfd54fa257dbfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c986d227ea087fd5ecc8d5e3745851') in 0.001891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005044 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/DemoScene.unity
+  artifactKey: Guid(cbc636f930f78c841a91c76a805bdfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/DemoScene.unity using Guid(cbc636f930f78c841a91c76a805bdfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fe45cb32aa38a574eeb7b6249716ba') in 0.001625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Animations/Gate.controller
+  artifactKey: Guid(4116117e33ea046eab1abc1d101b4086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Demo Scene/Animations/Gate.controller using Guid(4116117e33ea046eab1abc1d101b4086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f51391c8eaff5f89e534b6481ebf1d5') in 0.012848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118217 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Serialization/Serializers/Vector4Serializer.cs
+  artifactKey: Guid(af0a28dfe0d28b844b9ca788f93145c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Serialization/Serializers/Vector4Serializer.cs using Guid(af0a28dfe0d28b844b9ca788f93145c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '575105bc959c3a477a3dc4c32642e32b') in 0.007187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/Tags/SceneNameTag.cs
+  artifactKey: Guid(9ba203ccdff5c994eb35ca0c491659cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/Tags/SceneNameTag.cs using Guid(9ba203ccdff5c994eb35ca0c491659cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cae501969fcb701132927d5b7487f18') in 0.008844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Extras/exec/CSharpCompiler/Plugins/mcs.dll.mdb
+  artifactKey: Guid(92b0e52c641260e499fb1af7c9d116f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Extras/exec/CSharpCompiler/Plugins/mcs.dll.mdb using Guid(92b0e52c641260e499fb1af7c9d116f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee4da2fc9c41bb883c75313c2a2f91c3') in 0.006745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/Suggestors/MacroSuggestor.cs
+  artifactKey: Guid(76d43cae401d00140b4e5c5fd5bd17ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/Suggestors/MacroSuggestor.cs using Guid(76d43cae401d00140b4e5c5fd5bd17ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2262f269fd5b3ea59389fe2cbe94384') in 0.007174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/Suggestors/GameObjectSuggestor.cs
+  artifactKey: Guid(b03355cf0721c774fb78eb92d958d535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/QFSW/Quantum Console/Source/Scripts/Suggestions/Suggestors/GameObjectSuggestor.cs using Guid(b03355cf0721c774fb78eb92d958d535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c9892b5b7a451514d179a620f775552') in 0.007160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180037 seconds.
+  path: Assets/Mirror/Examples/Benchmark/Scripts/MonsterMovement.cs
+  artifactKey: Guid(9cddc2e496c474e538a494465be0192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Benchmark/Scripts/MonsterMovement.cs using Guid(9cddc2e496c474e538a494465be0192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc547134205709e17a9350ad116f36bd') in 0.001908 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
