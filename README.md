@@ -1,3 +1,5 @@
 # BH-Test-Task
 
-Aleksey de Vincha
+# Aleksey de Vincha
+
+Настройки длительности смены цвета и ростояния прыжка находятся на префабе игрока.
